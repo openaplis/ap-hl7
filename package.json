@@ -1,0 +1,25 @@
+{
+  "name": "ap-hl7-ventana",
+  "version": "1.0.0",
+  "description": "HL7 Documents for Communicating with Ventana Histology Interfaces",
+  "scripts": {
+    "start": "node src/lab-order-request.js",
+    "build-views": "handlebars ./src -f ./src/views.js -c handlebars/runtime"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openaplis/ap-hl7-ventana.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openaplis/ap-hl7-ventana/issues"
+  },
+  "homepage": "https://github.com/openaplis/ap-hl7-ventana#readme",
+  "dependencies": {
+    "ap-protobuf": "0.0.1",
+    "grpc": "^1.1.2",
+    "handlebars": "^4.0.6",
+    "protobufjs": "^6.6.5"
+  }
+}

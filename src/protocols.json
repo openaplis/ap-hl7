@@ -1,0 +1,8 @@
+"protocols": [
+  "protocol" {
+      "protocolName": "GMS II",
+      "stainer": "BenchMark",
+      "ventanaProtocolId": "3",
+      "ypiTestId": 106
+  }
+]
