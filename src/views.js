@@ -35,7 +35,45 @@ templates['segments/msh'] = template({"compiler":[7,">= 4.0.0"],"main":function(
     + "|P|2.4|\r\n";
 },"useData":true});
 templates['segments/obr'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "OBR|1|VEN-10001 A1-2||123^HER2^STAIN|||20110115||||||||Breast^Left Breast Upper Node^Breast Biopsy|1234^LastName^FirstName^MI|||VEN-10001;A;1;2^2|VEN-10001;A;1^1|VEN-10001;A^A|||||||||||||||||||||||||||\r\n";
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "OBR|"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.order_sequence_id : stack1), depth0))
+    + "|"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.placer_order_number : stack1), depth0))
+    + "||"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.protocol_number : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.protocol_name : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.order_type : stack1), depth0))
+    + "|||"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.observation_date_time : stack1), depth0))
+    + "||||||||"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_name : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_description : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.surgical_procedure_name : stack1), depth0))
+    + "|"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.pathologist_npi : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.pathologist_lastname : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.pathologist_firstname : stack1), depth0))
+    + "|||"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.slide_id : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.slide_sequence : stack1), depth0))
+    + "|"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.blockid : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.block_sequence : stack1), depth0))
+    + "|"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_id : stack1), depth0))
+    + "^"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_sequence : stack1), depth0))
+    + "|||||||||||||||||||||||||||\n";
 },"useData":true});
 templates['segments/orc'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;

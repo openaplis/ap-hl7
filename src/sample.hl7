@@ -1,0 +1,8 @@
+MSH|^~\&|YPILIS|YPI|Ventana|YPI|20170309042110||OML^O21|58c1e366f3e1cd24b837e13f|P|2.4|
+PID|||12983712||Mouse^Mickey^E||1/1/1967|U|
+PV1|||||||123456789^Duck^Donald|
+SAC|||||||201703031245|
+ORC|NW|17-12345.S.T01|||||||||||||||YPI^Yellowstone Pathology||||YPI^Yellowstone Pathology|
+OBR|1|17-12345.S.T01||254^P40-Titration^STAIN|||201702191200||||||||Breast^Left Breast Upper Node^Breast Biopsy|12312222^Duck^Donald|||17-12345.1A1^1|17-12345.1A^1|17-12345.1^1|||||||||||||||||||||||||||
+ORC|NW|17-12345.S.T02|||||||||||||||YPI^Yellowstone Pathology||||YPI^Yellowstone Pathology|
+OBR|2|17-12345.S.T02||254^P40-Titration^STAIN|||201702191200||||||||Breast^Left Breast Outer Node^Breast Biopsy|12312222^Duck^Donald|||17-12345.2A2^2|17-12345.2A^1|17-12345.2^2|||||||||||||||||||||||||||
