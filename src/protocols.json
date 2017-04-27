@@ -1,8 +1,1466 @@
-"protocols": [
-  "protocol" {
-      "protocolName": "GMS II",
-      "stainer": "BenchMark",
-      "ventanaProtocolId": "3",
-      "ypiTestId": 106
+[
+  {
+    "ventana_id": 1,
+    "ventana_name": "GMS II",
+    "ypi_name": "GMS",
+    "ypi_id": 106,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 2,
+    "ventana_name": "Mucicarmine",
+    "ypi_name": "Mucin",
+    "ypi_id": 123,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 3,
+    "ventana_name": "D K/L-Titration",
+    "ypi_name": "Ig Kappa/ Ig Lambda",
+    "ypi_id": "IGKIGL",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 3,
+    "ventana_name": "Retic",
+    "ypi_name": "Reticulin",
+    "ypi_id": 151,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 4,
+    "ventana_name": "Mucicarmine Dark",
+    "ypi_name": "Mucin",
+    "ypi_id": 123,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 5,
+    "ventana_name": "TRYPTASE Titration",
+    "ypi_name": "Tryptase",
+    "ypi_id": 353,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 5,
+    "ventana_name": "W-GMS II",
+    "ypi_name": "GMS-W",
+    "ypi_id": 106,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 6,
+    "ventana_name": "D KI-67/MART1",
+    "ypi_name": "Ki-67, Semi-quantitative/Melan A",
+    "ypi_id": "KI67MA",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 7,
+    "ventana_name": "R HMB-45",
+    "ypi_name": "HMB-45",
+    "ypi_id": 111,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 8,
+    "ventana_name": "D T PAX 5/ZAP 70",
+    "ypi_name": "PAX-5/ZAP 70",
+    "ypi_id": "PAX5ZP70",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 10,
+    "ventana_name": "D CK34/T-P504S",
+    "ypi_name": "Cytokeratin 34/P504s racemase",
+    "ypi_id": "CK34P504RM",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 17,
+    "ventana_name": "R    S100 TITRAT",
+    "ypi_name": "S100",
+    "ypi_id": 152,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 18,
+    "ventana_name": "R Hpylori Titration",
+    "ypi_name": "Helicobacter pylori",
+    "ypi_id": 107,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 21,
+    "ventana_name": "R MART-1",
+    "ypi_name": "Melan A",
+    "ypi_id": 119,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 22,
+    "ventana_name": "R MITF/Titration",
+    "ypi_name": "MITF",
+    "ypi_id": 178,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 23,
+    "ventana_name": "R P504S TITRATE",
+    "ypi_name": "P504s racemase",
+    "ypi_id": 133,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 24,
+    "ventana_name": "D TTF1/NAPSIN A",
+    "ypi_name": "TTF-1/Napsin A",
+    "ypi_id": "TTFNPSNA",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 31,
+    "ventana_name": "R SOX-10",
+    "ypi_name": "SOX10",
+    "ypi_id": 356,
+    "type": "Block",
+    "color": "Red"
+  },
+  {
+    "ventana_id": 32,
+    "ventana_name": "W-R SOX-10",
+    "ypi_name": "SOX10",
+    "ypi_id": 356,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 214,
+    "ventana_name": "BCL-6 TITRATION",
+    "ypi_name": "Bcl-6",
+    "ypi_id": 57,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 215,
+    "ventana_name": "NKX3.1 Titration",
+    "ypi_name": "NKX3.1",
+    "ypi_id": 355,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 216,
+    "ventana_name": "D2-40 TITRATE",
+    "ypi_name": "D2-40",
+    "ypi_id": 224,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 217,
+    "ventana_name": "SATB2 TITRATION",
+    "ypi_name": "SATB2",
+    "ypi_id": 357,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 219,
+    "ventana_name": "W-SATB2-T",
+    "ypi_name": "SATB2",
+    "ypi_id": 357,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 220,
+    "ventana_name": "PMS2 - Titration",
+    "ypi_name": "PMS2",
+    "ypi_id": 217,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 222,
+    "ventana_name": "CD31",
+    "ypi_name": "CD31",
+    "ypi_id": 176,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 223,
+    "ventana_name": "BCL-2 TITRATION",
+    "ypi_name": "Bcl-2",
+    "ypi_id": 56,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 224,
+    "ventana_name": "WCD31",
+    "ypi_name": "CD31",
+    "ypi_id": 176,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 225,
+    "ventana_name": "HSA Titration",
+    "ypi_name": "Hepatocyte Specific Antigen",
+    "ypi_id": 197,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 226,
+    "ventana_name": "W/NapsinA-T",
+    "ypi_name": "Napsin-A",
+    "ypi_id": 270,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 227,
+    "ventana_name": "Glypican 3 Titration",
+    "ypi_name": "Glypican 3",
+    "ypi_id": 276,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 228,
+    "ventana_name": "DOG-1Titration",
+    "ypi_name": "DOG-1",
+    "ypi_id": 298,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 229,
+    "ventana_name": "W / Glypican 3 Titration",
+    "ypi_name": "Glypican-3",
+    "ypi_id": 276,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 239,
+    "ventana_name": "CD8 Titration",
+    "ypi_name": "CD8",
+    "ypi_id": 80,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 240,
+    "ventana_name": "W/CD8 - T",
+    "ypi_name": "CD8",
+    "ypi_id": 80,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 244,
+    "ventana_name": "Calretinin Titration",
+    "ypi_name": "Calretinin",
+    "ypi_id": 60,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 245,
+    "ventana_name": "W/Calret-T",
+    "ypi_name": "Calretinin",
+    "ypi_id": 60,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 246,
+    "ventana_name": "WT1",
+    "ypi_name": "WT-1",
+    "ypi_id": 173,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 249,
+    "ventana_name": "D CD3-T/CD20",
+    "ypi_name": "CD3/CD20",
+    "ypi_id": "CD3CD20",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 250,
+    "ventana_name": "CA19-9",
+    "ypi_name": "CA 19-9",
+    "ypi_id": 59,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 251,
+    "ventana_name": "BCA-225",
+    "ypi_name": "BCA-225",
+    "ypi_id": 55,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 252,
+    "ventana_name": "W/CA19-9",
+    "ypi_name": "Ca 19-9",
+    "ypi_id": 59,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 253,
+    "ventana_name": "D CD3/CD20W/T",
+    "ypi_name": "CD3/CD20",
+    "ypi_id": "CD3CD20",
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 258,
+    "ventana_name": "E-cadherin",
+    "ypi_name": "E-cadherin",
+    "ypi_id": 94,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 259,
+    "ventana_name": "ER TITRATION",
+    "ypi_name": "Estrogen Receptor",
+    "ypi_id": 98,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 261,
+    "ventana_name": "CDX2 TITRATION",
+    "ypi_name": "CDX-2",
+    "ypi_id": 81,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 262,
+    "ventana_name": "W-CDX2-T",
+    "ypi_name": "CDX-2",
+    "ypi_id": 81,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 264,
+    "ventana_name": "CD23 Titration",
+    "ypi_name": "CD23",
+    "ypi_id": 66,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 265,
+    "ventana_name": "PR TITRATION",
+    "ypi_name": "Progesterone Receptor",
+    "ypi_id": 144,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 267,
+    "ventana_name": "Beta-Catenin",
+    "ypi_name": "Beta-Catenin",
+    "ypi_id": 299,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 269,
+    "ventana_name": "CD56 Titration",
+    "ypi_name": "CD56",
+    "ypi_id": 77,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 271,
+    "ventana_name": "CD138",
+    "ypi_name": "CD138 Quantitative",
+    "ypi_id": 273,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 273,
+    "ventana_name": "CD68 titration",
+    "ypi_name": "CD68",
+    "ypi_id": 78,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 276,
+    "ventana_name": "W/ CK 5/6",
+    "ypi_name": "Cytokeratin 5/6",
+    "ypi_id": 89,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 277,
+    "ventana_name": "CK34 BE 12",
+    "ypi_name": "cytokeratin 34",
+    "ypi_id": 88,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 280,
+    "ventana_name": "W/ER",
+    "ypi_name": "Estrogen Receptor",
+    "ypi_id": 98,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 281,
+    "ventana_name": "W/PR",
+    "ypi_name": "Progesterone Receptor",
+    "ypi_id": 144,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 282,
+    "ventana_name": "CK7 Titration",
+    "ypi_name": "Cytokeratin 7",
+    "ypi_id": 90,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 283,
+    "ventana_name": "CK5/6 Titration",
+    "ypi_name": "Cytokeratin 5/6",
+    "ypi_id": 89,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 284,
+    "ventana_name": "BROWN-HMB-45",
+    "ypi_name": "HMB-45",
+    "ypi_id": 111,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 285,
+    "ventana_name": "Ki67",
+    "ypi_name": "Ki-67, Semi-quantitative",
+    "ypi_id": 116,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 286,
+    "ventana_name": "Chromo Titration",
+    "ypi_name": "Chromogranin",
+    "ypi_id": 83,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 287,
+    "ventana_name": "W/CK5/6 Titration",
+    "ypi_name": "Cytokeratin 5/6",
+    "ypi_id": 89,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 288,
+    "ventana_name": "W/CK 7 - T",
+    "ypi_name": "Cytokeratin 7",
+    "ypi_id": 90,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 289,
+    "ventana_name": "P53 Titration",
+    "ypi_name": "P53",
+    "ypi_id": 134,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 290,
+    "ventana_name": "Cyclin D1 Titration",
+    "ypi_name": "Cyclin D1",
+    "ypi_id": 85,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 291,
+    "ventana_name": "W-Ki67",
+    "ypi_name": "Ki-67, Semi-quantitative",
+    "ypi_id": 116,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 292,
+    "ventana_name": "W/CD56-T",
+    "ypi_name": "CD56",
+    "ypi_id": 77,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 293,
+    "ventana_name": "W/TdT - T",
+    "ypi_name": "TdT",
+    "ypi_id": 157,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 294,
+    "ventana_name": "S100 Titration",
+    "ypi_name": "S100",
+    "ypi_id": 152,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 295,
+    "ventana_name": "SMM Titration",
+    "ypi_name": "Smooth Muscle Myosin",
+    "ypi_id": 154,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 296,
+    "ventana_name": "W/S100-T",
+    "ypi_name": "S100",
+    "ypi_id": 152,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 297,
+    "ventana_name": "Synap Titration",
+    "ypi_name": "Synaptophysin",
+    "ypi_id": 156,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 298,
+    "ventana_name": "W-SMM Titration",
+    "ypi_name": "Smooth Muscle Myosin",
+    "ypi_id": 154,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 299,
+    "ventana_name": "CMV Titration",
+    "ypi_name": "Cytomegalovirus",
+    "ypi_id": 350,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 301,
+    "ventana_name": "RCC Titration",
+    "ypi_name": "RCC",
+    "ypi_id": 149,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 302,
+    "ventana_name": "W/CD 5-T",
+    "ypi_name": "CD5",
+    "ypi_id": 75,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 303,
+    "ventana_name": "W/P53 Titration",
+    "ypi_name": "P53",
+    "ypi_id": 134,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 304,
+    "ventana_name": "CD5 Titration",
+    "ypi_name": "CD5",
+    "ypi_id": 75,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 305,
+    "ventana_name": "TdT Titration",
+    "ypi_name": "TdT",
+    "ypi_id": 157,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 306,
+    "ventana_name": "SMA Titration",
+    "ypi_name": "Smooth Muscle Actin",
+    "ypi_id": 153,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 311,
+    "ventana_name": "P63",
+    "ypi_name": "P63",
+    "ypi_id": 135,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 312,
+    "ventana_name": "Desmin",
+    "ypi_name": "Desmin",
+    "ypi_id": 92,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 313,
+    "ventana_name": "W/P63",
+    "ypi_name": "P63",
+    "ypi_id": 135,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 314,
+    "ventana_name": "W/CD68-T",
+    "ypi_name": "CD68",
+    "ypi_id": 78,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 315,
+    "ventana_name": "Napsin A - Titration",
+    "ypi_name": "Napsin-A",
+    "ypi_id": 270,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 316,
+    "ventana_name": "Zap-70 Titration",
+    "ypi_name": "ZAP 70",
+    "ypi_id": 165,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 318,
+    "ventana_name": "CD45 (LCA) Titration",
+    "ypi_name": "CD45",
+    "ypi_id": 73,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 319,
+    "ventana_name": "W/BCA-225",
+    "ypi_name": "BCA-225",
+    "ypi_id": 55,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 320,
+    "ventana_name": "W/CD45 (LCA) Titration",
+    "ypi_name": "CD45",
+    "ypi_id": 73,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 332,
+    "ventana_name": "MSA Titration",
+    "ypi_name": "Muscle Specific Actin",
+    "ypi_id": 125,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 339,
+    "ventana_name": "W/Zap 70 - T",
+    "ypi_name": "ZAP 70",
+    "ypi_id": 165,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 361,
+    "ventana_name": "W/CD19-T",
+    "ypi_name": "CD19",
+    "ypi_id": 172,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 362,
+    "ventana_name": "Hpylori Titration",
+    "ypi_name": "Helicobacter pylori",
+    "ypi_id": 107,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 363,
+    "ventana_name": "CD19 TITRATION",
+    "ypi_name": "CD19",
+    "ypi_id": 172,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 364,
+    "ventana_name": "W/Hpylori-T",
+    "ypi_name": "Helicobacter pylori",
+    "ypi_id": 107,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 368,
+    "ventana_name": "W / HSA Titration",
+    "ypi_name": "Hepatocyte Specific Antigen",
+    "ypi_id": 197,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 436,
+    "ventana_name": "W/CD34",
+    "ypi_name": "CD34",
+    "ypi_id": 70,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 601,
+    "ventana_name": "Alcian Blue",
+    "ypi_name": "Alcian Blue",
+    "ypi_id": 51,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 602,
+    "ventana_name": "PAS - Alcian Blue",
+    "ypi_name": "PAS alcian blue",
+    "ypi_id": 138,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 607,
+    "ventana_name": "Elastic Stain",
+    "ypi_name": "Elastic",
+    "ypi_id": 96,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 608,
+    "ventana_name": "Giemsa Stain",
+    "ypi_name": "Giemsa",
+    "ypi_id": 105,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 617,
+    "ventana_name": "Congo Red",
+    "ypi_name": "Congo Red",
+    "ypi_id": 84,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 643,
+    "ventana_name": "Iron NFR Dark",
+    "ypi_name": "Iron",
+    "ypi_id": 115,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 644,
+    "ventana_name": "W-Iron NFR Dark",
+    "ypi_name": "Iron",
+    "ypi_id": 115,
+    "type": "Fluid",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 654,
+    "ventana_name": "PAS-F",
+    "ypi_name": "PAS for fungus",
+    "ypi_id": 139,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 655,
+    "ventana_name": "W PAS-F",
+    "ypi_name": "PAS for fungus",
+    "ypi_id": 139,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 656,
+    "ventana_name": "PAS-D",
+    "ypi_name": "PAS with Diastase",
+    "ypi_id": 140,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 657,
+    "ventana_name": "PAS",
+    "ypi_name": "PAS",
+    "ypi_id": 137,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 676,
+    "ventana_name": "Trichrome III",
+    "ypi_name": "Trichrome",
+    "ypi_id": 160,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 706,
+    "ventana_name": "Steiner",
+    "ypi_name": "Steiner and Steiner",
+    "ypi_id": 155,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 707,
+    "ventana_name": "Steiner WET",
+    "ypi_name": "Steiner and Steiner",
+    "ypi_id": 155,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 709,
+    "ventana_name": "AFB III",
+    "ypi_name": "Acid Fast",
+    "ypi_id": 50,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 861,
+    "ventana_name": "W/GATA-3 Titration",
+    "ypi_name": "GATA-3",
+    "ypi_id": 346,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 901,
+    "ventana_name": "OSCAR TITRAT",
+    "ypi_name": "OSCAR",
+    "ypi_id": 170,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 903,
+    "ventana_name": "W/CD10",
+    "ypi_name": "CD10",
+    "ypi_id": 61,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 904,
+    "ventana_name": "W/CD3-T",
+    "ypi_name": "CD3",
+    "ypi_id": 68,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 907,
+    "ventana_name": "W/OSCAR-T",
+    "ypi_name": "OSCAR",
+    "ypi_id": 170,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 908,
+    "ventana_name": "Ber-EP4",
+    "ypi_name": "Ber-EP4",
+    "ypi_id": 216,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 909,
+    "ventana_name": "BROWN - MITF",
+    "ypi_name": "MITF",
+    "ypi_id": 178,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 910,
+    "ventana_name": "BROWN-SOX10",
+    "ypi_name": "SOX10",
+    "ypi_id": 356,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 911,
+    "ventana_name": "CD10 TITRATE",
+    "ypi_name": "CD10",
+    "ypi_id": 61,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 912,
+    "ventana_name": "W-BROWN-SOX10",
+    "ypi_name": "SOX10",
+    "ypi_id": 356,
+    "type": "Fluid",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 914,
+    "ventana_name": "CD15 TITRATION",
+    "ypi_name": "CD15",
+    "ypi_id": 64,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 916,
+    "ventana_name": "W/CEA-T",
+    "ypi_name": "CEA",
+    "ypi_id": 82,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 918,
+    "ventana_name": "CEA Titration",
+    "ypi_name": "CEA",
+    "ypi_id": 82,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 919,
+    "ventana_name": "MOC31 TITRATE",
+    "ypi_name": "MOC 31",
+    "ypi_id": 215,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 921,
+    "ventana_name": "CA-125 Titration",
+    "ypi_name": "CA 125",
+    "ypi_id": 58,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 922,
+    "ventana_name": "W/CA-125 Titration",
+    "ypi_name": "CA 125",
+    "ypi_id": 58,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 925,
+    "ventana_name": "FXIIIa Titration",
+    "ypi_name": "Factor XIIIa",
+    "ypi_id": 101,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 927,
+    "ventana_name": "CD25",
+    "ypi_name": "CD25",
+    "ypi_id": 67,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 929,
+    "ventana_name": "CK20 Titration",
+    "ypi_name": "Cytokeratin 20",
+    "ypi_id": 87,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 931,
+    "ventana_name": "BROWN-MART 1",
+    "ypi_name": "Melan A",
+    "ypi_id": 119,
+    "type": "Block",
+    "color": "Brown"
+  },
+  {
+    "ventana_id": 933,
+    "ventana_name": "CD99 Titration",
+    "ypi_name": "CD99",
+    "ypi_id": 177,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 934,
+    "ventana_name": "W/CK20-T",
+    "ypi_name": "Cytokeratin 20",
+    "ypi_id": 87,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 936,
+    "ventana_name": "CD117 titration",
+    "ypi_name": "CD117",
+    "ypi_id": 62,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 937,
+    "ventana_name": "W/MOC31-T",
+    "ypi_name": "MOC 31",
+    "ypi_id": 215,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 938,
+    "ventana_name": "CD30",
+    "ypi_name": "CD30",
+    "ypi_id": 69,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 939,
+    "ventana_name": "W-CD117",
+    "ypi_name": "CD117",
+    "ypi_id": 62,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 940,
+    "ventana_name": "PAX5 TITRATION",
+    "ypi_name": "PAX-5",
+    "ypi_id": 141,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 941,
+    "ventana_name": "W-PAX5 TITRATION",
+    "ypi_name": "PAX-5",
+    "ypi_id": 141,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 944,
+    "ventana_name": "W/CD79a-T",
+    "ypi_name": "CD79a",
+    "ypi_id": 79,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 945,
+    "ventana_name": "CD7 Titration",
+    "ypi_name": "CD7",
+    "ypi_id": 180,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 947,
+    "ventana_name": "CD79a Titration",
+    "ypi_name": "CD79a",
+    "ypi_id": 79,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 948,
+    "ventana_name": "EMA Titration",
+    "ypi_name": "EMA",
+    "ypi_id": 97,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 949,
+    "ventana_name": "W/CD 7-T",
+    "ypi_name": "CD7",
+    "ypi_id": 180,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 951,
+    "ventana_name": "W/CK 8/18-T",
+    "ypi_name": "Cytokeratin 8/18",
+    "ypi_id": 91,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 954,
+    "ventana_name": "W/PanKer-T",
+    "ypi_name": "Pancytokeratin",
+    "ypi_id": 136,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 955,
+    "ventana_name": "W/CD20-T",
+    "ypi_name": "CD20",
+    "ypi_id": 65,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 957,
+    "ventana_name": "Mammaglobin",
+    "ypi_name": "Mammaglobin",
+    "ypi_id": 118,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 958,
+    "ventana_name": "W/GCDFP-15",
+    "ypi_name": "GCDFP-15",
+    "ypi_id": 103,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 959,
+    "ventana_name": "Fascin",
+    "ypi_name": "Fascin",
+    "ypi_id": 102,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 960,
+    "ventana_name": "Thyro Titration",
+    "ypi_name": "Thyroglobulin",
+    "ypi_id": 158,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 961,
+    "ventana_name": "W/Thyro Titration",
+    "ypi_name": "Thyroglobulin",
+    "ypi_id": 158,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 962,
+    "ventana_name": "W/Mammaglobin",
+    "ypi_name": "Mammaglobin",
+    "ypi_id": 118,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 963,
+    "ventana_name": "CD20 Titration",
+    "ypi_name": "CD20",
+    "ypi_id": 65,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 964,
+    "ventana_name": "CD34",
+    "ypi_name": "CD34",
+    "ypi_id": 70,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 965,
+    "ventana_name": "GCDFP-15  Titration",
+    "ypi_name": "GCDFP-15",
+    "ypi_id": 103,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 966,
+    "ventana_name": "PAX8 Titration",
+    "ypi_name": "PAX-8",
+    "ypi_id": 253,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 967,
+    "ventana_name": "Panker Titration",
+    "ypi_name": "Pancytokeratin",
+    "ypi_id": 136,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 969,
+    "ventana_name": "Vim Titration",
+    "ypi_name": "Vimentin",
+    "ypi_id": 164,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 970,
+    "ventana_name": "MSH-2 Titration",
+    "ypi_name": "MSH2",
+    "ypi_id": 122,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 974,
+    "ventana_name": "Myelop Titration",
+    "ypi_name": "Myeloperoxidase",
+    "ypi_id": 126,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 979,
+    "ventana_name": "MSH6 Titraion",
+    "ypi_name": "MSH6",
+    "ypi_id": 218,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 982,
+    "ventana_name": "GATA-3 Titration",
+    "ypi_name": "GATA-3",
+    "ypi_id": 346,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 983,
+    "ventana_name": "CD3 Titration",
+    "ypi_name": "CD3",
+    "ypi_id": 68,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 984,
+    "ventana_name": "W/Villin - T",
+    "ypi_name": "Villin",
+    "ypi_id": 163,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 985,
+    "ventana_name": "W/TTF 1 - T",
+    "ypi_name": "TTF-1",
+    "ypi_id": 161,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 986,
+    "ventana_name": "CK17 TITRATE",
+    "ypi_name": "Cytokeratin 17",
+    "ypi_id": 86,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 988,
+    "ventana_name": "P504s - T",
+    "ypi_name": "P504s racemase",
+    "ypi_id": 133,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 990,
+    "ventana_name": "CD4 TITRATE",
+    "ypi_name": "CD4",
+    "ypi_id": 71,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 991,
+    "ventana_name": "GFAP Titration",
+    "ypi_name": "GFAP",
+    "ypi_id": 104,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 994,
+    "ventana_name": "P16",
+    "ypi_name": "P16",
+    "ypi_id": 132,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 995,
+    "ventana_name": "W/P16 TITRATE",
+    "ypi_name": "P16",
+    "ypi_id": 132,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 996,
+    "ventana_name": "W / GATA-3 Titration",
+    "ypi_name": "GATA-3",
+    "ypi_id": 346,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 998,
+    "ventana_name": "W/P504s - T",
+    "ypi_name": "P504s racemase",
+    "ypi_id": 133,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 999,
+    "ventana_name": "W-NKX3.1-T",
+    "ypi_name": "NKX3.1",
+    "ypi_id": 355,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1000,
+    "ventana_name": "Kappa Titration",
+    "ypi_name": "Ig Kappa",
+    "ypi_id": 113,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1001,
+    "ventana_name": "Lambda Titration",
+    "ypi_name": "Ig Lambda",
+    "ypi_id": 114,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1002,
+    "ventana_name": "TTF1 Titration",
+    "ypi_name": "TTF-1",
+    "ypi_id": 161,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1003,
+    "ventana_name": "PLAP Titration",
+    "ypi_name": "Placental Alkaline Phosphatase",
+    "ypi_id": 142,
+    "type": "Block",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1004,
+    "ventana_name": "W/CD 4-T",
+    "ypi_name": "CD4",
+    "ypi_id": 71,
+    "type": "Fluid",
+    "color": "Default"
+  },
+  {
+    "ventana_id": 1006,
+    "ventana_name": "MLH1 Titration",
+    "ypi_name": "MLH1",
+    "ypi_id": 121,
+    "type": "Block",
+    "color": "Default"
   }
 ]

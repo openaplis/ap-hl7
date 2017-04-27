@@ -1,12 +1,15 @@
-FROM sidharder/ap-hl7-ventana:latest
+FROM node:boron
 
-# Bundle app source
-COPY . /usr/src/app
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
-RUN npm run build-views
+
+# Bundle app source
+COPY . /usr/src/app
 
 EXPOSE 50051
 CMD [ "npm", "start" ]

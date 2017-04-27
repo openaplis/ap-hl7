@@ -3,7 +3,7 @@ var Handlebars = require('handlebars/runtime')
 var templates = require(__dirname + '/views.js')
 var grpc = require('grpc')
 
-var PROTO_PATH = 'node_modules/ap-protobuf/src/ventana.proto'
+var PROTO_PATH = 'node_modules/ap-protobuf/src/hl7/ventana/ventana.proto'
 var ventana_proto = grpc.load(PROTO_PATH).ventana
 
 function getOrder(call, callback) {
@@ -18,7 +18,7 @@ function main() {
   server.addProtoService(ventana_proto.StainOrder.service, { getOrder: getOrder })
   server.bind('0.0.0.0:50051', grpc.ServerCredentials.createInsecure())
   server.start()
-  console.log('listening!')
+  console.log('listening on port 50051!')
 }
 
 function setupTemplates() {

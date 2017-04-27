@@ -73,7 +73,7 @@ templates['segments/obr'] = template({"compiler":[7,">= 4.0.0"],"main":function(
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_id : stack1), depth0))
     + "^"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.obr : depth0)) != null ? stack1.specimen_sequence : stack1), depth0))
-    + "|||||||||||||||||||||||||||\n";
+    + "|||||||||||||||||||||||||||\r\n";
 },"useData":true});
 templates['segments/orc'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;

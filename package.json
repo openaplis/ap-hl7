@@ -1,5 +1,5 @@
 {
-  "name": "ap-hl7-ventana",
+  "name": "ap-hl7",
   "version": "1.0.0",
   "description": "HL7 Documents for Communicating with Ventana Histology Interfaces",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openaplis/ap-hl7-ventana.git"
+    "url": "git+https://github.com/openaplis/ap-hl7.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/openaplis/ap-hl7-ventana/issues"
+    "url": "https://github.com/openaplis/ap-hl7/issues"
   },
-  "homepage": "https://github.com/openaplis/ap-hl7-ventana#readme",
+  "homepage": "https://github.com/openaplis/ap-hl7#readme",
   "dependencies": {
     "ap-protobuf": "^0.0.2",
     "chai": "^3.5.0",
