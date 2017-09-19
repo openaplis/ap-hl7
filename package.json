@@ -1,6 +1,6 @@
 {
   "name": "ap-hl7",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "HL7 Documents for Communicating with Ventana Histology Interfaces",
   "scripts": {
     "start-service": "node src/start-service.js",
