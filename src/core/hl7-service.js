@@ -33,8 +33,10 @@ module.exports = {
 
 }
 
-function sendOrder (call, callback) {
+function buildOrder (call, callback) {
+  console.log('hl7-service: buildOrder was called.')
   ventanaOrder.send(call.request, function (err, result) {
+    if(err) console.log(err)
     callback(null, result)
   })
 }
